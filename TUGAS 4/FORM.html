@@ -1,1 +1,121 @@
+<!DOCTYPE html>
 
+<html>
+	<head>
+		<title>Intro Web</title>
+	</head>
+
+	<style>
+		tr{
+			text-align: left;
+		}
+		
+		h3{
+			text-align: center;
+		}
+	</style>
+
+	<body>
+		<header>
+			<nav>
+				<a href="#">Profil</a>
+				<a href="#"></a>
+				<a href="#">Nama</a>
+				<a href="#">Nama</a>
+			</nav>
+		</header>
+
+		<h3>Biodata Mahasiswa Stikom Bnyuwangi</h3>
+		<hr>
+		<table>
+		<tr>
+			<th>Nama</th>
+			<td>: Rachmad Lukman M</td>
+		</tr>
+
+		<tr>
+			<th>Tanggal Lahir</th>
+			<td>: 22 Maret 2002</td>
+		</tr>
+
+		<tr>
+			<th>Jenis Kelamin</th>
+			<td>: Laki-Laki</td>
+		</tr>
+
+		<tr>
+			<th>No. Telepon</th>
+			<td>: 08989050623</td>
+		</tr>
+
+		<tr>
+			<th>Hobi</th>
+			<td>: Memelihara Luwak</td>
+		</tr>
+
+		<tr>
+			<th>Alamat</th>
+			<td>: Lteng, Banyuwangi</td>
+		</tr>
+		<br>
+		</table>
+		<br>
+		<hr>
+		<h3>PENDAFTARAN ONLINE</h3>
+		<form>
+			<label for="nama">Masukkan Nama:</label><br>
+			<input type="text" id="nama" name="nama"><br>
+			<label for="panggilan">Nama Panggilan:</label><br>
+			<input type="text" id="panggilan" name="panggilan">
+		<br>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		<hr>
+		<br>
+			<label for="username">Masukkan Username:</label><br>
+			<input type="text" id="username" name="username"><br>
+			<label for="password">Masukkan Password:</label><br>
+			<input type="password" id="password" name="password">
+		<hr>
+			<label for="email">Masukkan Email:</label><br>
+			<input type="email" id="email" name="email"><br>
+		<hr>
+		<h4>Type Textarea</h4>
+		<label for="pesan">Masukkan Pesan:</label><br>
+		<textarea name="pesan" rows="10" cols="30"></textarea>
+		<hr>
+		<h4>Type Radio</h4>
+			<label>
+				<input type="radio" name="gender" value="Laki">Laki-Laki
+			</label>
+			<br>
+			<label>
+				<input type="radio" name="gender" value="perempuan">Perempuan
+			</label>
+		<hr>
+		<h4>Type Option/Dropdown</h4>
+			<label for="religi">Pilih Agama:</label>
+			<select name="religi">
+				<option value="islam">Islam</option>
+				<option value="kristen">Kristen</option>
+				<option value="hindu">Hindu</option>
+				<option value="budha">Budha</option>
+			</select>
+		<hr>
+		<h4>Type Checklist</h4>
+			<label>
+				<input type="checkbox" name="hobi" value=sepakbola>Sepak Bola<br>
+				<input type="checkbox" name="hobi" value=basket>Basket<br>
+				<input type="checkbox" name="hobi" value=renang>Renang<br>
+			</label>
+		<hr>
+		<h4>Type Date</h4>
+			<label for="ultah">Tanggal Lahir</label>
+			<input type="date" name="ultah">
+		<hr>
+			
+		</form>
+
+	</body>
+
+</html>
