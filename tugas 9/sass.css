@@ -1,0 +1,40 @@
+:root {
+  --primary-color: red;
+  --secondary-color: green;
+  --width-img: 350px;
+  --height: 300px;
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+img {
+  width: var(--width-img);
+  height: var(--height);
+}
+
+.img-container {
+  background-color: var(--primary-color);
+  padding: 30px;
+  margin: 40px;
+}
+.img-container h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+.img-container .pp {
+  color: blue;
+}
+.img-container p {
+  color: salmon;
+}
+
+.container-box {
+  display: flex;
+  justify-content: justify-content;
+  flex-direction: row;
+  width: 500px;
+  height: 400px;
+  background-color: #eaeaea;
+}/*# sourceMappingURL=sass.css.map */
